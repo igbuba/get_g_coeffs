@@ -1,4 +1,4 @@
-# ge_g_coeff.py
+# get_g_coeff.py
 A **Python script** to extract from VASP **WAVECAR** and **vasprun.xml** files:
 
 - **G**-vectors (**G**)
