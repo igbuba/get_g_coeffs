@@ -7,7 +7,7 @@ from pymatgen.io.vasp import Vasprun
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 from pymatgen.electronic_structure.core import Spin
 
-vasprun_dir    ="/Users/ibuba/Desktop/dielectric_hybrid/Project_II/0Simon/cubic_/DSH0/"
+vasprun_dir    ="./"
 vasprun_file   = vasprun_dir + "vasprun.xml"
 l_wavecar_file = vasprun_dir + "WAVECAR"
 output_file    = "g_coefs_orthor.txt"
