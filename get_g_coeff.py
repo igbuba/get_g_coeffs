@@ -10,9 +10,10 @@ from pymatgen.electronic_structure.core import Spin
 vasprun_dir    ="./"
 vasprun_file   = vasprun_dir + "vasprun.xml"
 l_wavecar_file = vasprun_dir + "WAVECAR"
-output_file    = "g_coefs_orthor.txt"
+output_file    = "g_coefs_cubic.txt"
 
-# link to example: https://hungqpham.com/mcu/plottingwfn.html#parameters-for-get-unk
+# link to example: https://hungqpham.com/mcu/plottingwfn.html
+#parameters-for-get-unk
 # ---------------------- get gap, VBM, CBM, kpoints, cell_info, etc  etc
 def get_general_info(vasprun_directory):
     """Return the band gap (in eV) from a VASP calculation in the specified directory.
