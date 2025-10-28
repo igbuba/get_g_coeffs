@@ -1,7 +1,7 @@
 # get_g_coeff.py
 A **Python script** to extract from VASP **WAVECAR** and **vasprun.xml** files:
 
-- **G**-vectors (**G**)
+- **G**-vectors
 - Complex coefficients **C<sub>n,k</sub>(**G**)**
 
 for any **k-point** (e.g., Γ) or set of k-points, and **band** (VBM, CBM) or any set of bands.
